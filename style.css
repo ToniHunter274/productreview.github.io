@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	height: 450px;
+	width: 600px;
+	margin: 200px auto;
+	font-family: 'Montserrat';
+}
+
+h3{
+	letter-spacing: 5px;
+	font-size: 12px;
+	line-height: 15px;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+#txts{
+	padding: 15px;
+}
+
+h1{
+	margin-bottom: 20px;
+	font-family: 'fraunces';
+}
+
+p{
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+#current-price{
+	color: #3D8168;
+	line-height: 32px;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+#former-price{
+	color: #6C7289;
+	margin-left: 15px;
+	text-decoration: line-through;
+}
+
+button{
+	width: 244px;
+	height: 48px;
+	background-color: #3D8168;
+	border-radius: 8px;
+	border: none;
+	color: #fff;
+	font-family: 'Montserrat';
+}
